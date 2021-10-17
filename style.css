@@ -5,6 +5,7 @@ body{
     font-weight:normal;
     font-family:monospace,sans-serif;
     background-image: url("back.jpg");
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -44,6 +45,7 @@ header a{
     width: 500px;
     width: 100%;
     margin-bottom: 100px;
+
 }
 /* body text config. */
 .content{
@@ -52,9 +54,36 @@ header a{
     Margin:50px auto;
     text-align: justify;
     height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-spacing: 40px;
+    font-size: 30px;
+    font-family: Arial;
 
+}
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+/* formart of hyperlinks in body text */
+.linkBar a:link {
+    color: #FF9E3D;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linkBar a:visited {
+    color:#EAF616;
+    background-color: transparent;
+    text-decoration: none;
+}
+.linkBar a:hover {
+    color:#00FF41;
+    background-color: white;
+    text-decoration: none;
 }
 
 .footer{
@@ -65,6 +94,7 @@ header a{
     position:fixed;
     text-align:center;
     width: 100%;
+
 
 }
 
@@ -89,7 +119,7 @@ header a{
 .active{
     background-color: lightgreen;
 }
-p{
+/* p{
 
   margin-left: 40px;
   margin-right: 40px;
@@ -97,7 +127,7 @@ p{
   font-size: 30px;
   font-family: Arial;
 
-}
+} */
 
 li {
 
